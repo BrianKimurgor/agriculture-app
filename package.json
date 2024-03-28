@@ -1,0 +1,22 @@
+{
+  "name": "agriculture-app",
+  "version": "1.0.0",
+  "description": "This is anagricultural app",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./static/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianKimurgor/agriculture-app.git"
+  },
+  "author": "BrianKimurgor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrianKimurgor/agriculture-app/issues"
+  },
+  "homepage": "https://github.com/BrianKimurgor/agriculture-app#readme",
+  "dependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
